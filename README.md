@@ -14,13 +14,18 @@ This is a simple To-Do List app built using React with Vite as the build tool. I
 
 - **Task Input:** Users can enter a new task in the input field.
 
-- **Add Task:** Users can add the entered task to the to-do list by clicking the "Add" button.
+- **Add Task:** Users can add the entered task to the to-do list by clicking the "⊕" button.
 
 - **Task List:** The app displays the list of tasks added by the user.
 
-- **Mark as Complete:** Each task can be marked as complete by clicking the "Complete" button.
+- **Mark as Complete:** Each task can be marked as complete by clicking the "☐".
 
-- **Remove Task:** Each task can be deleted from the list by clicking the "Delete" button.
+- **Remove Task:** Each task can be deleted from the list by clicking the "⨂" button.
+
+- **Clear List:** All the added task can be deleted by clicking the "Clear List" button in the bottom.
+
+- **Stats:** In footer the total task count & total task left will be shown.
+
 
 ## [Demo](https://assignment-module-7.vercel.app)
 
@@ -47,11 +52,15 @@ You can check out the live demo of the app [here](https://assignment-module-7.ve
 
 ## How to Use
 
-1. Enter a new task in the input field and click the "Add" button to add it to the to-do list.
+1. Enter a new task in the input field and click the "⊕" button to add it to the to-do list.
 
-2. Each task in the list will have a "Complete" button. Click it to mark the task as complete.
+2. Each task in the list will have a "⨂" and "☐" button.
 
-3. Each task will also have a "Delete" button. Click it to remove the task from the list.
+3. Click "☐" to mark the task as complete.
+
+4. Click "⨂" to delete the task.
+
+5. Click "Clear List" to remove all task at once.
 
 
 ## Technologies Used
