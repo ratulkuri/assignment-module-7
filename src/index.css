@@ -16,3 +16,9 @@
         @apply w-full flex flex-col lg:flex-row items-center flex-shrink-0 gap-2 lg:gap-4 bg-slate-700 px-6 py-6 lg:divide-x divide-slate-600 text-slate-500 font-bold tracking-wider
     }
 }
+
+@layer utilities {
+    .cursor-pointer {
+        -webkit-tap-highlight-color: transparent;
+    }
+}
