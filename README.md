@@ -22,9 +22,9 @@ This is a simple To-Do List app built using React with Vite as the build tool. I
 
 - **Remove Task:** Each task can be deleted from the list by clicking the "Delete" button.
 
-## [Demo](https://assignment-module-6.vercel.app)
+## [Demo](https://assignment-module-7.vercel.app)
 
-You can check out the live demo of the app [here](https://assignment-module-6.vercel.app)
+You can check out the live demo of the app [here](https://assignment-module-7.vercel.app)
 
 
 ## Getting Started
