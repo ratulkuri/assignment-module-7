@@ -43,11 +43,13 @@ const TaskList = ({tasks, setTaskList}) => {
             {
                 (tasks?.length > 0) ?
                 <div className="task-list divide-y divide-slate-600 rounded-md">
-                    {
-                        tasks?.map((task) => {
-                            return <TaskItem key={`task-${task.id}`} task={task} onDelete={handleOnDelete} onChecked={onChecked} />
-                        })
-                    }
+                    <div className="list-wrap max-h-[calc(100vh-280px)] lg:max-h-[calc(100vh-330px)] overflow-y-auto">
+                        {
+                            tasks?.map((task) => {
+                                return <TaskItem key={`task-${task.id}`} task={task} onDelete={handleOnDelete} onChecked={onChecked} />
+                            })
+                        }
+                    </div>
                     <div className="list-footer">
                         <span className="stat flex-grow">{totalLeft} items left out of {tasks?.length}</span>
                         <div className="text-right flex-grow">
