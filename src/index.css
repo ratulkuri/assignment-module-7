@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .page-wrap {
+        @apply after:content-[""] relative after:absolute after:top-0 after:left-0 after:right-0 after:h-56 after:lg:h-80 after:bg-gradient-to-r after:from-violet-500 after:to-fuchsia-500 after:opacity-90 after:z-0
+        before:content-[""] before:absolute before:top-0 before:left-0 before:right-0 before:h-56 before:lg:h-80 before:bg-[url("https://picsum.photos/1920/320")] before:bg-no-repeat before:bg-cover
+    }
+
+    .task-wrap {
+        @apply z-10 relative p-2 lg:p-4 rounded
+    }
+
+    .list-footer {
+        @apply w-full flex flex-col lg:flex-row items-center flex-shrink-0 gap-2 lg:gap-4 bg-slate-700 px-6 py-6 lg:divide-x divide-slate-600 text-slate-500 font-bold tracking-wider
+    }
+}
