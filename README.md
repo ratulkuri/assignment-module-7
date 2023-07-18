@@ -22,7 +22,7 @@ This is a simple To-Do List app built using React with Vite as the build tool. I
 
 - **Remove Task:** Each task can be deleted from the list by clicking the "⨂" button.
 
-- **Clear List:** All the added task can be deleted by clicking the "Clear List" button in the bottom.
+- **Clear List:** All the added task can be deleted by clicking the "CLEAR LIST" button in the bottom.
 
 - **Stats:** In footer the total task count & total task left will be shown.
 
@@ -60,7 +60,7 @@ You can check out the live demo of the app [here](https://assignment-module-7.ve
 
 4. Click "⨂" to delete the task.
 
-5. Click "Clear List" to remove all task at once.
+5. Click "CLEAR LIST" to remove all task at once.
 
 
 ## Technologies Used

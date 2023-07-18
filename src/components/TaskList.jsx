@@ -51,7 +51,7 @@ const TaskList = ({tasks, setTaskList}) => {
                     <div className="list-footer">
                         <span className="stat flex-grow">{totalLeft} items left out of {tasks?.length}</span>
                         <div className="text-right flex-grow">
-                            <button className="whitespace-nowrap px-2" onClick={clearList}>Clear List</button>
+                            <button className="whitespace-nowrap uppercase px-2" onClick={clearList}>Clear List</button>
                         </div>
                     </div>
                 </div> : <div className="flex flex-col gap-2 items-center rounded-md bg-slate-700 p-10 lg:p-24">
